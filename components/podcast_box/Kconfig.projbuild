@@ -1,0 +1,15 @@
+menu "My Audio Board"
+
+choice CUSTOMER_AUDIO_BOARD
+    prompt "PODCAST BOX AUDIO BOARD"
+    default PODCAST_BOX
+    help
+        Select an audio board to use with the ESP-ADF
+
+config PODCAST_BOX
+    bool "PODCAST BOX"
+
+endchoice
+
+endmenu
+
